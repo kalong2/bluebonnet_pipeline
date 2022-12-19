@@ -1,0 +1,29 @@
+Direct  chain.
+ Acceptor(AG) sites. Treshold      4.175 (90%).
+       1 P:     751 W:  4.67 Seq: tgcccAGcccct
+       2 P:    1472 W:  7.62 Seq: tctgcAGggctg
+ Donor(GT) sites. Treshold      6.099 (90%).
+       1 P:    1018 W:  6.80 Seq: gctggGTgaggt
+       2 P:    1096 W:  9.74 Seq: ggcagGTaccat
+       3 P:    1245 W: 12.68 Seq: acatgGTgagtg
+       4 P:    1332 W:  6.66 Seq: ggaagGTgacag
+Reverse chain.
+ Acceptor(AG) sites. Treshold      4.175 (90%).
+       1 P:     487 W:  7.08 Seq: ttatcAGcttgg
+       2 P:     504 W:  5.85 Seq: accacAGtggca
+       3 P:     634 W:  7.83 Seq: ctcctAGcagga
+       4 P:     637 W:  7.15 Seq: ctagcAGgaggc
+       5 P:     710 W:  5.75 Seq: catacAGccctg
+       6 P:     860 W:  9.68 Seq: cttccAGgctgc
+       7 P:    1096 W:  4.47 Seq: ctgccAGggccg
+       8 P:    1251 W:  9.07 Seq: ttctcAGggggc
+       9 P:    1606 W:  5.58 Seq: cccccAGggtaa
+      10 P:    1765 W:  6.72 Seq: tctccAGagcgt
+      11 P:    1917 W:  5.67 Seq: cccacAGcaaag
+ Donor(GT) sites. Treshold      6.099 (90%).
+       1 P:      35 W: 11.70 Seq: aggcaGTaagtg
+       2 P:     944 W:  8.76 Seq: accatGTaagcc
+       3 P:    1038 W:  6.38 Seq: actggGTacgat
+       4 P:    1535 W:  7.08 Seq: gggagGTatttt
+       5 P:    1608 W:  6.10 Seq: ccaggGTaatgc
+       6 P:    1890 W:  8.06 Seq: ctgtgGTgagct

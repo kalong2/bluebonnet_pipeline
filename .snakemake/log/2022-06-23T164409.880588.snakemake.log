@@ -1,0 +1,11 @@
+Job stats:
+job           count    min threads    max threads
+----------  -------  -------------  -------------
+annotation        1              1              1
+imputation        1              1              1
+join              1              1              1
+prepare           1              1              1
+prescore          1              1              1
+score             1              1              1
+total             6              1              1
+

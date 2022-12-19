@@ -1,0 +1,4 @@
+SITE_PERL=/usr/local/perl/perl-5.14.1
+SIFT_HOME=/work/NBS/SIFT/SIFTINDEL
+TMP_DIR=/work/NBS/SIFT/SIFTINDEL/tmp
+PERL_LIB=/usr/local/lib/perl5/site_perl/5.12.0

@@ -1,0 +1,7 @@
+Classify_SNPs_Indels_jhu_March2013.pl:my \$tmpdir = \"(\/usr\/local\/web\/packages\/tmp\/)\"\;:my $tmpdir = "PLACEHOLDER";:TMP_DIR
+Classify_SNPs_Indels_jhu_March2013.pl:\$bin = \"\$SIFT_HOME\/bin\";:$bin = "PLACEHOLDER/bin";:SIFT_HOME
+SIFT_exome_indels.pl:\$ENV\{\'SIFT_HOME\'} = \'\/usr\/local\/web\/packages\/';:$ENV{'SIFT_HOME'} = 'PLACEHOLDER';:SIFT_HOME
+SIFT_exome_indels.pl:use lib \'/usr/local/packages/sift/site_perl/5.8.8\';:use lib 'PLACEHOLDER';:PERL_LIB
+model_transcript.pl:use lib \'\/usr\/local\/packages\/sift\/site_perl\/5\.8\.8';:use lib 'PLACEHOLDER';:PERL_LIB
+SIFT_exome_indels.pl:SET_SIFT_HOME:my $SIFT_HOME = 'PLACEHOLDER';:SIFT_HOME
+map_coords_to_bin_indels.pl:SET_SIFT_HOME:my $SIFT_HOME = 'PLACEHOLDER';:SIFT_HOME
