@@ -1,0 +1,265 @@
+/work/NBS//outputs/2023-01-30/ACADVL_6_jleavitt_2023-01-30/ACADVL_6_jleavitt_2023-01-30_CADD.txt
+##CADD GRCh38-v1.6 (c) University of Washington, Hudson-Alpha Institute for Biotechnology and Berlin Institute of Health 2013-2020. All rights reserved.
+#Chrom	Pos	Ref	Alt	RawScore	PHRED
+17	7223755	G	A	2.160135	20.6
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-30/ACADVL_6_jleavitt_2023-01-30/ACADVL_6_jleavitt_2023-01-30_SIFT.txt
+##fileformat=VCFv4.0
+##fileDate=20220321
+##INFO=<ID=NS,Number=1,Type=Integer,Description="Number of Samples With Data">
+##FILTER=<ID=q10,Description="Quality below 10">
+##SIFT_Threshold: 0.05
+##INFO=<ID=SIFTINFO,Number=.,Type=String,Description="SIFT information. Format: Allele|Transcript|GeneId|GeneName|Region|VariantType|Ref_Amino_Acid/Alt_AminoAcid|Amino_position|SIFT_score|SIFT_median|SIFT_num_seqs|Allele_Type|SIFT_prediction">
+#CHROM POS     ID        REF ALT    QUAL FILTER INFO
+17	7223755	rs373157378	G	A	30	PASS	NS=1;SIFTINFO=A|ENST00000578711|ENSG00000072778|ACADVL|UTR_3|NONCODING|NA/NA|NA|NA|NA|NA|rs373157378|NA
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-30/ACADVL_6_jleavitt_2023-01-30/ACADVL_6_jleavitt_2023-01-30_UCSC.txt
+{u'start': 7223755, u'end': 7223756, u'value': 1.49092}
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-30/ACADVL_6_jleavitt_2023-01-30/ACADVL_6_jleavitt_2023-01-30_clinvar.txt
+2704247 | Uncertain significance | criteria provided, single submitter | 2020-07-16 | 2020-07-16 | N/A | 2019-11-01 | The NM_000018.3:c.1269+25G>A (NP_000009.1:p.?) [GRCH38: NC_000017.11:g.7223755G>A] variant in ACADVL gene is interpretated to be Uncertain Significance based on ACMG guidelines (PMID: 25741868). This variant has been reported. This variant dose not meet any evidence codes reported in the ACMG guidelines.
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-30/ACADVL_6_jleavitt_2023-01-30/ACADVL_6_jleavitt_2023-01-30_dbSNP.txt
+{
+  "most_severe_consequence": "non_coding_transcript_exon_variant",
+  "evidence": [
+    "Frequency",
+    "ESP",
+    "Phenotype_or_Disease",
+    "ExAC",
+    "TOPMed",
+    "gnomAD"
+  ],
+  "var_class": "SNP",
+  "clinical_significance": [
+    "uncertain significance"
+  ],
+  "mappings": [
+    {
+      "assembly_name": "GRCh38",
+      "ancestral_allele": "G",
+      "allele_string": "G/A",
+      "start": 7223755,
+      "strand": 1,
+      "location": "17:7223755-7223755",
+      "end": 7223755,
+      "coord_system": "chromosome",
+      "seq_region_name": "17"
+    }
+  ],
+  "source": "Variants (including SNPs and indels) imported from dbSNP",
+  "name": "rs373157378",
+  "MAF": null,
+  "synonyms": [
+    "VCV000932820",
+    "RCV001200772"
+  ],
+  "ambiguity": "R",
+  "minor_allele": null
+}
+$maf
+[1] 9.987872e-05
+
+$maf_population
+$maf_population[[1]]
+          study ref_seq Minor          MAF
+1   1000Genomes       G     A 3.123048e-04
+2          ExAC       G     A 9.063195e-05
+3        GnomAD       G     A 9.987872e-05
+4 GnomAD_exomes       G     A 8.351561e-05
+5         GoESP       G     A 1.537752e-04
+6        TOPMED       G     A 1.964562e-04
+7 dbGaP_PopFreq       G     A 2.135231e-04
+8         TOMMO       G     T 3.538821e-05
+
+
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-30/ACADVL_6_jleavitt_2023-01-30/ACADVL_6_jleavitt_2023-01-30_dbSNP_freqs.txt
+1000Genomes	2	G	A	2	6404
+ExAC	1	G	A	11	121370
+GnomAD	3	G	A	14	140170
+GnomAD_exomes	2	G	A	21	251450
+GoESP	2	G	A	2	13006
+TOPMED	3	G	A	52	264690
+dbGaP_PopFreq	1	G	A	3	14050
+TOMMO	2	G	T	1	28258
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-30/ACADVL_6_jleavitt_2023-01-30/ACADVL_6_jleavitt_2023-01-30_exac.txt
+Mutation not found
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-30/ACADVL_6_jleavitt_2023-01-30/ACADVL_6_jleavitt_2023-01-30_fsplice.txt
+Direct  chain.
+ Acceptor(AG) sites. Treshold      4.175 (90%).
+       1 P:     751 W:  4.67 Seq: tgcccAGcccct
+       2 P:    1472 W:  7.62 Seq: tctgcAGggctg
+ Donor(GT) sites. Treshold      6.099 (90%).
+       1 P:    1018 W:  6.80 Seq: gctggGTgaggt
+       2 P:    1096 W:  9.74 Seq: ggcagGTaccat
+       3 P:    1245 W: 12.68 Seq: acatgGTgagtg
+       4 P:    1332 W:  6.66 Seq: ggaagGTgacag
+Reverse chain.
+ Acceptor(AG) sites. Treshold      4.175 (90%).
+       1 P:     487 W:  7.08 Seq: ttatcAGcttgg
+       2 P:     504 W:  5.85 Seq: accacAGtggca
+       3 P:     634 W:  7.83 Seq: ctcctAGcagga
+       4 P:     637 W:  7.15 Seq: ctagcAGgaggc
+       5 P:     710 W:  5.75 Seq: catacAGccctg
+       6 P:     860 W:  9.68 Seq: cttccAGgctgc
+       7 P:    1096 W:  4.47 Seq: ctgccAGggccg
+       8 P:    1251 W:  9.07 Seq: ttctcAGggggc
+       9 P:    1606 W:  5.58 Seq: cccccAGggtaa
+      10 P:    1765 W:  6.72 Seq: tctccAGagcgt
+      11 P:    1917 W:  5.67 Seq: cccacAGcaaag
+ Donor(GT) sites. Treshold      6.099 (90%).
+       1 P:      35 W: 11.70 Seq: aggcaGTaagtg
+       2 P:     944 W:  8.76 Seq: accatGTaagcc
+       3 P:    1038 W:  6.38 Seq: actggGTacgat
+       4 P:    1535 W:  7.08 Seq: gggagGTatttt
+       5 P:    1608 W:  6.10 Seq: ccaggGTaatgc
+       6 P:    1890 W:  8.06 Seq: ctgtgGTgagct
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-30/ACADVL_6_jleavitt_2023-01-30/ACADVL_6_jleavitt_2023-01-30_gnomad.txt
+{
+variant_id: 17-7223755-G-A,
+hgvsc: c.1269+25G>A,
+hgvsp: null,
+genome: {
+ac: 15,
+an: 152096,
+af: 9.862192299600252e-05,
+"populations": [
+{"id": "oth","ac": 0,"an": 2094},
+{"id": "amr","ac": 0,"an": 15274},
+{"id": "fin","ac": 0,"an": 10618},
+{"id": "ami","ac": 0,"an": 912},
+{"id": "eas","ac": 0,"an": 5200},
+{"id": "mid","ac": 0,"an": 316},
+{"id": "afr","ac": 14,"an": 41386},
+{"id": "sas","ac": 0,"an": 4812},
+{"id": "asj","ac": 0,"an": 3472},
+{"id": "nfe","ac": 1,"an": 68012}]}}
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-30/ACADVL_6_jleavitt_2023-01-30/ACADVL_6_jleavitt_2023-01-30_polyphen2.txt
+## ENSEMBL VARIANT EFFECT PREDICTOR v106.1
+## Output produced at 2023-01-30 08:28:20
+## Connected to homo_sapiens_core_106_38 on ensembldb.ensembl.org
+## Using API version 106, DB version 106
+## ensembl-variation version 106.2aa7a5d
+## ensembl-io version 106.6eafdaa
+## ensembl version 106.f4b50c6
+## ensembl-funcgen version 106.027e023
+## polyphen version 2.2.2
+## genebuild version 2014-07
+## gencode version GENCODE 40
+## assembly version GRCh38.p13
+## Column descriptions:
+## Uploaded_variation : Identifier of uploaded variant
+## Location : Location of variant in standard coordinate format (chr:start or chr:start-end)
+## Allele : The variant allele used to calculate the consequence
+## Gene : Stable ID of affected gene
+## Feature : Stable ID of feature
+## Feature_type : Type of feature - Transcript, RegulatoryFeature or MotifFeature
+## Consequence : Consequence type
+## cDNA_position : Relative position of base pair in cDNA sequence
+## CDS_position : Relative position of base pair in coding sequence
+## Protein_position : Relative position of amino acid in protein
+## Amino_acids : Reference and variant amino acids
+## Codons : Reference and variant codon sequence
+## Existing_variation : Identifier(s) of co-located known variants
+## Extra column keys:
+## IMPACT : Subjective impact classification of consequence type
+## DISTANCE : Shortest distance from variant to transcript
+## STRAND : Strand of the feature (1/-1)
+## FLAGS : Transcript quality flags
+## PolyPhen : PolyPhen prediction and/or score
+#Uploaded_variation	Location	Allele	Gene	Feature	Feature_type	Consequence	cDNA_position	CDS_position	Protein_position	Amino_acids	Codons	Existing_variation	Extra
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000004975	ENST00000005340	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=1587;STRAND=-1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000322910	Transcript	intron_variant,NMD_transcript_variant	-	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000350303	Transcript	intron_variant	-	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000356839	Transcript	intron_variant	-	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000199053	ENST00000362183	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=376;STRAND=-1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000132535	ENST00000399510	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3919;STRAND=-1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000132535	ENST00000491753	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=4017;STRAND=-1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000542255	Transcript	intron_variant	-	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1;FLAGS=cds_start_NF
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000543245	Transcript	intron_variant	-	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000004975	ENST00000571745	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3394;STRAND=-1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000004975	ENST00000573354	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=4108;STRAND=-1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000004975	ENST00000574143	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=4252;STRAND=-1;FLAGS=cds_end_NF
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000004975	ENST00000574591	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=4845;STRAND=-1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000004975	ENST00000575086	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=2382;STRAND=-1;FLAGS=cds_start_NF,cds_end_NF
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000004975	ENST00000575458	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=1700;STRAND=-1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000004975	ENST00000575756	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=4222;STRAND=-1;FLAGS=cds_end_NF
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000004975	ENST00000576285	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3483;STRAND=-1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000004975	ENST00000576840	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=2901;STRAND=-1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000577191	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=1291;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000577433	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=2100;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000577857	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=1676;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000578033	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=878;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000578269	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3079;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000578319	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=462;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000578421	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3016;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000578579	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000578711	Transcript	non_coding_transcript_exon_variant	251	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000578809	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=462;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000578824	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000579286	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=1674;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000579391	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=349;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000579425	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000579546	Transcript	intron_variant	-	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1;FLAGS=cds_start_NF,cds_end_NF
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000579886	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=1799;STRAND=1;FLAGS=cds_end_NF
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000579894	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=170;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000580263	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=2975;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000580365	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=1663;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000581378	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=933;STRAND=1;FLAGS=cds_start_NF
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000581562	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=1757;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000582056	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=2619;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000582166	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=2126;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000582356	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=2833;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000582379	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=518;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000582450	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=526;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000583074	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=70;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000583312	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=1767;STRAND=1;FLAGS=cds_end_NF
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000583760	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=1609;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000583848	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=734;STRAND=1;FLAGS=cds_start_NF
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000583850	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000583858	Transcript	intron_variant,NMD_transcript_variant	-	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1;FLAGS=cds_start_NF
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000584103	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=2734;STRAND=1;FLAGS=cds_end_NF
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000072778	ENST00000585203	Transcript	intron_variant,non_coding_transcript_variant	-	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.1269+25G>A	17:7223755	A	ENSG00000132535	ENST00000648172	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3914;STRAND=-1
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-30/ACADVL_6_jleavitt_2023-01-30/ACADVL_6_jleavitt_2023-01-30_provean.txt
+N/A: Mutation does not affect the protein.
+
+************************************************************************************************************************
+
+

@@ -1,0 +1,19 @@
+{
+variant_id: 17-7223755-G-A,
+hgvsc: c.1269+25G>A,
+hgvsp: null,
+genome: {
+ac: 15,
+an: 152096,
+af: 9.862192299600252e-05,
+"populations": [
+{"id": "oth","ac": 0,"an": 2094},
+{"id": "amr","ac": 0,"an": 15274},
+{"id": "fin","ac": 0,"an": 10618},
+{"id": "ami","ac": 0,"an": 912},
+{"id": "eas","ac": 0,"an": 5200},
+{"id": "mid","ac": 0,"an": 316},
+{"id": "afr","ac": 14,"an": 41386},
+{"id": "sas","ac": 0,"an": 4812},
+{"id": "asj","ac": 0,"an": 3472},
+{"id": "nfe","ac": 1,"an": 68012}]}}

@@ -1,0 +1,78 @@
+
+Gene: ABCD1
+Locus: NM_000033.4
+Variant: c.-59C>T
+Gathering information from ensembl...
+
+Checking for normalized variant format...
+Variant format is unchanged
+
+Gathering information from dbSNP...
+Getting info about the following rsIDs: rs4148030
+
+Gathering information from gnomad...
+
+Gathering information from ExAC...
+NOTE: ExAC is only availble for GRCh37, so results will be for that reference only
+
+Information for downstream tools...
+Chromosome: X
+Position: 153725208
+Reference Allele: C
+Alternate Allele: T
+Getting PolyPhen2 scores...
+
+Gathering information from ClinVar...
+
+Copying saved splice site information...
+
+Gathering information from UCSC (phyloP)...
+
+Running CADD...
+CADD-v1.6 (c) University of Washington, Hudson-Alpha Institute for Biotechnology and Berlin Institute of Health 2013-2020. All rights reserved.
+Running snakemake pipeline:
+snakemake /tmp/tmp.pMwrzM3AsU/CADD_vcf_tmp.tsv.gz --use-conda --conda-prefix /work/NBS/CADD-scripts/envs --cores 1
+--configfile /work/NBS/CADD-scripts/config/config_GRCh38_v1.6_noanno.yml --snakefile /work/NBS/CADD-scripts/Snakefile -q
+Job stats:
+job           count    min threads    max threads
+----------  -------  -------------  -------------
+annotation        1              1              1
+imputation        1              1              1
+join              1              1              1
+prepare           1              1              1
+prescore          1              1              1
+score             1              1              1
+total             6              1              1
+
+Possible precedence issue with control flow operator at /work/NBS/CADD-scripts/envs/ed5466c2bce5bf8fd2fe496e5b6e5c26/lib/site_perl/5.26.2/Bio/DB/IndexedBase.pm line 805.
+
+CADD scored variants written to file: /work/NBS//outputs/2023-01-30/ABCD1_4_klong_2023-01-30/ABCD1_4_klong_2023-01-30_CADD.txt.gz
+
+Running SIFT...
+Start Time for SIFT4G code: Tue Jan 31 16:02:39 CST 2023
+
+Started Running .......
+Running in Multitranscripts mode
+
+Chromosome	WithSIFT4GAnnotations	WithoutSIFT4GAnnotations	Progress
+X			1			0			Completed : 1/1
+
+Merging temp files....
+SIFT4G Annotation completed !
+Output directory:/work/NBS/outputs/2023-01-30/ABCD1_4_klong_2023-01-30
+End Time for parallel code: Tue Jan 31 16:04:03 CST 2023
+
+
+Running Provean...
+Provean evaluates protein mutations, and this mutation does not affect the CDS.
+Cleaning output directory...
+ABCD1-4-klong-2023-01-30
+
+Parsing information and creating Excel worksheet...
+START
+ABCD1:c.-59C>T
+I AM HERE
+15
+N/A: Mutation does not affect the protein.
+2023-01-30
+klong

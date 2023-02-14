@@ -1,0 +1,84 @@
+## ENSEMBL VARIANT EFFECT PREDICTOR v106.1
+## Output produced at 2023-01-30 08:27:32
+## Connected to homo_sapiens_core_106_38 on ensembldb.ensembl.org
+## Using API version 106, DB version 106
+## ensembl version 106.f4b50c6
+## ensembl-io version 106.6eafdaa
+## ensembl-funcgen version 106.027e023
+## ensembl-variation version 106.2aa7a5d
+## genebuild version 2014-07
+## gencode version GENCODE 40
+## polyphen version 2.2.2
+## assembly version GRCh38.p13
+## Column descriptions:
+## Uploaded_variation : Identifier of uploaded variant
+## Location : Location of variant in standard coordinate format (chr:start or chr:start-end)
+## Allele : The variant allele used to calculate the consequence
+## Gene : Stable ID of affected gene
+## Feature : Stable ID of feature
+## Feature_type : Type of feature - Transcript, RegulatoryFeature or MotifFeature
+## Consequence : Consequence type
+## cDNA_position : Relative position of base pair in cDNA sequence
+## CDS_position : Relative position of base pair in coding sequence
+## Protein_position : Relative position of amino acid in protein
+## Amino_acids : Reference and variant amino acids
+## Codons : Reference and variant codon sequence
+## Existing_variation : Identifier(s) of co-located known variants
+## Extra column keys:
+## IMPACT : Subjective impact classification of consequence type
+## DISTANCE : Shortest distance from variant to transcript
+## STRAND : Strand of the feature (1/-1)
+## FLAGS : Transcript quality flags
+## PolyPhen : PolyPhen prediction and/or score
+#Uploaded_variation	Location	Allele	Gene	Feature	Feature_type	Consequence	cDNA_position	CDS_position	Protein_position	Amino_acids	Codons	Existing_variation	Extra
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000004975	ENST00000005340	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=4546;STRAND=-1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000132535	ENST00000302955	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3187;STRAND=-1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000322910	Transcript	3_prime_UTR_variant,NMD_transcript_variant	524	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000350303	Transcript	missense_variant	364	242	81	K/R	aAa/aGa	-	IMPACT=MODERATE;STRAND=1;PolyPhen=benign(0.003)
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000356839	Transcript	missense_variant	355	308	103	K/R	aAa/aGa	-	IMPACT=MODERATE;STRAND=1;PolyPhen=benign(0.006)
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000199053	ENST00000362183	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=2501;STRAND=-1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000132535	ENST00000399506	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3169;STRAND=-1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000132535	ENST00000399510	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=960;STRAND=-1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000132535	ENST00000447163	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3590;STRAND=-1;FLAGS=cds_end_NF
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000132535	ENST00000485100	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3608;STRAND=-1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000132535	ENST00000491753	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=1058;STRAND=-1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000542255	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=2402;STRAND=1;FLAGS=cds_start_NF
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000543245	Transcript	missense_variant	398	377	126	K/R	aAa/aGa	-	IMPACT=MODERATE;STRAND=1;PolyPhen=benign(0.003)
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000004975	ENST00000575458	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=4659;STRAND=-1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000577191	Transcript	non_coding_transcript_exon_variant	385	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000577433	Transcript	non_coding_transcript_exon_variant	516	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000577857	Transcript	non_coding_transcript_exon_variant	259	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000578033	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3837;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000578269	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=120;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000578319	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3421;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000578421	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=57;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000578579	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=2311;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000578711	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=2709;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000578809	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3421;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000578824	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=1844;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000579286	Transcript	non_coding_transcript_exon_variant	489	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000579391	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3308;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000579425	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=2236;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000579546	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=2423;STRAND=1;FLAGS=cds_start_NF,cds_end_NF
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000579886	Transcript	intron_variant	-	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1;FLAGS=cds_end_NF
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000579894	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3129;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000580263	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=16;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000580365	Transcript	non_coding_transcript_exon_variant	39	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000581378	Transcript	missense_variant,NMD_transcript_variant	7	8	3	K/R	aAa/aGa	-	IMPACT=MODERATE;STRAND=1;FLAGS=cds_start_NF;PolyPhen=benign(0.011)
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000581562	Transcript	non_coding_transcript_exon_variant	355	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000582056	Transcript	non_coding_transcript_exon_variant	398	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000582166	Transcript	non_coding_transcript_exon_variant	196	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000582356	Transcript	non_coding_transcript_exon_variant	507	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000582379	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=1150;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000582450	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3485;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000583074	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3029;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000583312	Transcript	missense_variant	433	308	103	K/R	aAa/aGa	-	IMPACT=MODERATE;STRAND=1;FLAGS=cds_end_NF;PolyPhen=benign(0.006)
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000583760	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=483;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000583848	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3693;STRAND=1;FLAGS=cds_start_NF
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000583850	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=2891;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000583858	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=1964;STRAND=1;FLAGS=cds_start_NF
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000584103	Transcript	missense_variant	390	308	103	K/R	aAa/aGa	-	IMPACT=MODERATE;STRAND=1;FLAGS=cds_end_NF;PolyPhen=benign(0.137)
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000585203	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=2052;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000132535	ENST00000647975	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3563;STRAND=-1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000132535	ENST00000648172	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=955;STRAND=-1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000132535	ENST00000648707	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=2491;STRAND=-1

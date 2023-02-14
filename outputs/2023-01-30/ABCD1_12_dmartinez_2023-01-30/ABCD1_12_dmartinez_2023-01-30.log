@@ -1,0 +1,28 @@
+
+Gene: ABCD1
+Locus: NM_000033.4
+Variant: c.1532+11G>A
+Gathering information from ensembl...
+
+Checking for normalized variant format...
+Variant format is unchanged
+
+This mutation does not have an entry in dbSNP
+
+Gathering information from gnomad...
+
+Gathering information from ExAC...
+NOTE: ExAC is only availble for GRCh37, so results will be for that reference only
+
+The lack of information in these databases hinders downstream analysis. There will be no results for this mutation search
+First fail
+START
+ABCD1:c.1532+11G>A
+I AM HERE
+14
+Results unavailable
+2023-01-30
+dmartinez
+start fail script
+STARTING DATA IMPORT
+cp: cannot stat '/work/NBS//outputs/2023-01-30/ABCD1_12_dmartinez_2023-01-30/ABCD1_12_dmartinez_2023-01-30_variant_worksheet.xlsx': No such file or directory

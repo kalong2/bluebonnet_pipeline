@@ -1,0 +1,51 @@
+Direct Chain.
+ Acceptor(AG) sites. Threshold      4.175 (90%).
+       1 P:     370 W:  6.10 Seq: gccccAGgcacc
+       2 P:     428 W:  4.38 Seq: tctccAGgcccc
+       3 P:     857 W:  7.12 Seq: tcaacAGtgcca
+       4 P:     902 W:  6.20 Seq: tccgcAGccgtc
+       5 P:     942 W:  5.20 Seq: ctcccAGcagac
+       6 P:     945 W:  4.62 Seq: ccagcAGaccta
+       7 P:    2043 W:  6.38 Seq: cccgcAGaggcc
+       8 P:    2079 W:  4.33 Seq: tgaccAGgtgat
+       9 P:    2181 W:  4.85 Seq: cctgcAGcggga
+      10 P:    2760 W:  5.88 Seq: ctcctAGaaaac
+      11 P:    2857 W:  5.10 Seq: tccacAGtgact
+      12 P:    2996 W:  4.42 Seq: actgcAGgtggc
+      13 P:    3281 W:  8.43 Seq: tctacAGcctaa
+      14 P:    3309 W:  5.12 Seq: ttcgtAGccatc
+      15 P:    3603 W:  4.53 Seq: ccctcAGccctc
+ Donor(GT) sites. Threshold      6.099 (90%).
+       1 P:     407 W:  6.80 Seq: cccagGTgacat
+       2 P:     715 W:  9.32 Seq: ccttgGTgagcc
+       3 P:    1389 W:  8.48 Seq: ctgtgGTatgtt
+       4 P:    1419 W:  6.52 Seq: atgaaGTatgtg
+       5 P:    1543 W:  9.88 Seq: agctgGTgagcg
+       6 P:    1684 W:  9.18 Seq: tccagGTatttg
+       7 P:    2080 W:  6.38 Seq: accagGTgatct
+       8 P:    2880 W:  8.76 Seq: gggcaGTgagtc
+Reverse chain.
+ Acceptor(AG) sites. Threshold      4.175 (90%).
+       1 P:     759 W:  5.70 Seq: accccAGcttcc
+       2 P:    1185 W:  8.45 Seq: ccgtcAGgctca
+       3 P:    1272 W:  5.97 Seq: tccacAGggagg
+       4 P:    1446 W:  4.92 Seq: ccgacAGgacgt
+       5 P:    1494 W:  7.67 Seq: gctgcAGgatgt
+       6 P:    1834 W:  4.67 Seq: ctcgcAGatgat
+       7 P:    1878 W:  4.75 Seq: tcttcAGggggc
+       8 P:    2152 W:  6.17 Seq: ttccaAGgctgc
+       9 P:    2457 W:  6.67 Seq: ccaccAGctccc
+      10 P:    3364 W:  5.75 Seq: tgtctAGgcaac
+      11 P:    3651 W:  5.08 Seq: tccgcAGcctgg
+ Donor(GT) sites. Threshold      6.099 (90%).
+       1 P:     404 W:  7.08 Seq: aggtgGTgaggg
+       2 P:     514 W: 11.56 Seq: tgcagGTgaggc
+       3 P:    1282 W:  7.92 Seq: ggccgGTgggtg
+       4 P:    1678 W:  7.22 Seq: ccaccGTacgtg
+       5 P:    2329 W:  7.64 Seq: tcctgGTaggag
+       6 P:    2629 W:  7.64 Seq: tagagGTgggcc
+       7 P:    2746 W:  6.38 Seq: aggcgGTaggcg
+       8 P:    2800 W: 12.40 Seq: tccagGTaacgg
+       9 P:    2825 W:  8.06 Seq: cgaagGTagcag
+      10 P:    2945 W:  9.04 Seq: ggaagGTgcggc
+      11 P:    3533 W:  6.24 Seq: ctgagGTcaggg

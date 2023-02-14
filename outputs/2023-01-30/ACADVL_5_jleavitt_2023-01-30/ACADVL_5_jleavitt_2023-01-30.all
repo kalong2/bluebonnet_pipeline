@@ -1,0 +1,358 @@
+/work/NBS//outputs/2023-01-30/ACADVL_5_jleavitt_2023-01-30/ACADVL_5_jleavitt_2023-01-30_CADD.txt
+##CADD GRCh38-v1.6 (c) University of Washington, Hudson-Alpha Institute for Biotechnology and Berlin Institute of Health 2013-2020. All rights reserved.
+#Chrom	Pos	Ref	Alt	RawScore	PHRED
+17	7220796	A	G	1.698335	17.02
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-30/ACADVL_5_jleavitt_2023-01-30/ACADVL_5_jleavitt_2023-01-30_SIFT.txt
+##fileformat=VCFv4.0
+##fileDate=20220321
+##INFO=<ID=NS,Number=1,Type=Integer,Description="Number of Samples With Data">
+##FILTER=<ID=q10,Description="Quality below 10">
+##SIFT_Threshold: 0.05
+##INFO=<ID=SIFTINFO,Number=.,Type=String,Description="SIFT information. Format: Allele|Transcript|GeneId|GeneName|Region|VariantType|Ref_Amino_Acid/Alt_AminoAcid|Amino_position|SIFT_score|SIFT_median|SIFT_num_seqs|Allele_Type|SIFT_prediction">
+#CHROM POS     ID        REF ALT    QUAL FILTER INFO
+17	7220796	rs140566084	A	G	30	PASS	NS=1;SIFTINFO=G|ENST00000350303|ENSG00000072778|ACADVL|CDS|NONSYNONYMOUS|K/R|81|0.299|2.56|93|rs140566084|TOLERATED,G|ENST00000543245|ENSG00000072778|ACADVL|CDS|NONSYNONYMOUS|K/R|126|0.314|2.59|99|rs140566084|TOLERATED,G|ENST00000581378|ENSG00000072778|ACADVL|CDS|NONSYNONYMOUS|K/R|2|0.337|3.34|27|rs140566084|TOLERATED,G|ENST00000356839|ENSG00000072778|ACADVL|CDS|NONSYNONYMOUS|K/R|103|0.349|2.51|96|rs140566084|TOLERATED,G|ENST00000584103|ENSG00000072778|ACADVL|CDS|NONSYNONYMOUS|K/R|103|0.370|3.61|21|rs140566084|TOLERATED,G|ENST00000583312|ENSG00000072778|ACADVL|CDS|NONSYNONYMOUS|K/R|103|0.478|2.65|61|rs140566084|TOLERATED,G|ENST00000322910|ENSG00000072778|ACADVL|UTR_3|NONCODING|NA/NA|NA|NA|NA|NA|rs140566084|NA,G|ENST00000577191|ENSG00000072778|ACADVL|UTR_3|NONCODING|NA/NA|NA|NA|NA|NA|rs140566084|NA,G|ENST00000577433|ENSG00000072778|ACADVL|UTR_3|NONCODING|NA/NA|NA|NA|NA|NA|rs140566084|NA,G|ENST00000577857|ENSG00000072778|ACADVL|UTR_3|NONCODING|NA/NA|NA|NA|NA|NA|rs140566084|NA,G|ENST00000579286|ENSG00000072778|ACADVL|UTR_3|NONCODING|NA/NA|NA|NA|NA|NA|rs140566084|NA,G|ENST00000580365|ENSG00000072778|ACADVL|UTR_3|NONCODING|NA/NA|NA|NA|NA|NA|rs140566084|NA,G|ENST00000581562|ENSG00000072778|ACADVL|UTR_3|NONCODING|NA/NA|NA|NA|NA|NA|rs140566084|NA,G|ENST00000582056|ENSG00000072778|ACADVL|UTR_3|NONCODING|NA/NA|NA|NA|NA|NA|rs140566084|NA,G|ENST00000582166|ENSG00000072778|ACADVL|UTR_3|NONCODING|NA/NA|NA|NA|NA|NA|rs140566084|NA,G|ENST00000582356|ENSG00000072778|ACADVL|UTR_3|NONCODING|NA/NA|NA|NA|NA|NA|rs140566084|NA
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-30/ACADVL_5_jleavitt_2023-01-30/ACADVL_5_jleavitt_2023-01-30_UCSC.txt
+{u'start': 7220796, u'end': 7220797, u'value': 0.264095}
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-30/ACADVL_5_jleavitt_2023-01-30/ACADVL_5_jleavitt_2023-01-30_clinvar.txt
+583202 | Benign | criteria provided, single submitter | 2016-10-03 | 2016-10-03 | N/A | N/A | N/A
+2507967 | Likely benign | criteria provided, single submitter | 2020-05-31 | 2020-05-31 | N/A | 2018-01-12 | This variant was observed in the ICSL laboratory as part of a predisposition screen in an ostensibly healthy population. It had not been previously curated by ICSL or reported in the Human Gene Mutation Database (HGMD: prior to June 1st, 2018), and was therefore a candidate for classification through an automated scoring system. Utilizing variant allele frequency, disease prevalence and penetrance estimates, and inheritance mode, an automated score was calculated to assess if this variant is too frequent to cause the disease. Based on the score and internal cut-off values, a variant classified as likely benign is not then subjected to further curation. The score for this variant resulted in a classification of likely benign for this disease.
+2704324 | Benign | criteria provided, single submitter | 2020-07-16 | 2020-09-27 | N/A | 2019-11-01 | The NM_000018.3:c.308A>G (NP_000009.1:p.Lys103Arg) [GRCH38: NC_000017.11:g.7220796A>G] variant in ACADVL gene is interpretated to be Benign based on ACMG guidelines (PMID: 25741868). This variant has been reported. This variant meets the following evidence codes reported in the ACMG guidelines: BS1, BS2
+1253159 | Benign | criteria provided, single submitter | 2017-12-26 | 2020-09-27 | N/A | 2019-12-31 | N/A
+2870397 | Benign | no assertion criteria provided | 2021-01-02 | 2021-01-02 | N/A | 2020-09-16 | N/A
+3375010 | Uncertain significance | criteria provided, single submitter | 2021-06-15 | 2021-06-15 | N/A | 2020-03-09 | N/A
+3455911 | Benign | criteria provided, single submitter | 2021-07-24 | 2021-07-24 | N/A | 2015-03-03 | N/A
+2901486 | Likely benign | criteria provided, single submitter | 2021-01-26 | 2022-01-08 | N/A | 2021-03-18 | N/A
+4065326 | Likely benign | criteria provided, single submitter | 2022-02-12 | 2022-02-12 | N/A | 2022-01-17 | Variant summary: ACADVL c.308A>G (p.Lys103Arg) results in a conservative amino acid change located in the Acyl-CoA dehydrogenase/oxidase, N-terminal domain (IPR013786) of the encoded protein sequence. Four of five in-silico tools predict a benign effect of the variant on protein function. The variant allele was found at a frequency of 0.0014 in 251434 control chromosomes, predominantly at a frequency of 0.012 within the African or African-American subpopulation in the gnomAD database. The observed variant frequency within African or African-American control individuals in the gnomAD database is approximately 4 fold of the estimated maximal expected allele frequency for a pathogenic variant in ACADVL causing Very Long Chain Acyl-CoA Dehydrogenase Deficiency phenotype (0.0029), strongly suggesting that the variant is a benign polymorphism found primarily in populations of African or African-American origin. c.308A>G has been reported in the literature as a VUS in settings of newborn/presumptive screening for Very Long Chain Acyl-CoA Dehydrogenase Deficiency (example, Miller_2015). These report(s) do not provide unequivocal conclusions about association of the variant with Very Long Chain Acyl-CoA Dehydrogenase Deficiency. To our knowledge, no experimental evidence demonstrating an impact on protein function has been reported. Seven clinical diagnostic laboratories have submitted clinical-significance assessments for this variant to ClinVar after 2014 without evidence for independent evaluation and a predominant consensus as likely benign/benign (n=6). Based on the evidence outlined above, the variant was classified as likely benign.
+5037542 | Uncertain significance | reviewed by expert panel | 2022-10-08 | 2022-10-08 | N/A | 2022-09-23 | The c.308A>G variant in ACADVL has been reported in one proband with elevated C14:1 levels (PP4_moderate; PMID: 27209629). The highest population minor allele frequency in gnomAD v2.1.1 is 1.2% in the African population, which is higher than the ClinGen ACADVL threshold (0.7%) for BA1, and therefore meets this criterion (BA1). The computational predictor REVEL gives a score of 0.35, (which is below the threshold of 0.5) indicating that the variant does not predict a damaging effect on ACADVL function (BP4). Due to conflicting evidence, this variant is classified as a variant of unknown significance for very long chain acyl-CoA dehydrogenase deficiency, as specified by the ClinGen ACADVL: (PP4_moderate, BA1, BP4).
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-30/ACADVL_5_jleavitt_2023-01-30/ACADVL_5_jleavitt_2023-01-30_dbSNP.txt
+{
+  "mappings": [
+    {
+      "assembly_name": "GRCh38",
+      "end": 7220796,
+      "location": "17:7220796-7220796",
+      "allele_string": "A/G",
+      "coord_system": "chromosome",
+      "ancestral_allele": "A",
+      "start": 7220796,
+      "strand": 1,
+      "seq_region_name": "17"
+    }
+  ],
+  "most_severe_consequence": "missense_variant",
+  "source": "Variants (including SNPs and indels) imported from dbSNP",
+  "ambiguity": "R",
+  "name": "rs140566084",
+  "minor_allele": "G",
+  "evidence": [
+    "Frequency",
+    "1000Genomes",
+    "Cited",
+    "ESP",
+    "Phenotype_or_Disease",
+    "ExAC",
+    "TOPMed",
+    "gnomAD"
+  ],
+  "clinical_significance": [
+    "uncertain significance",
+    "benign",
+    "likely benign"
+  ],
+  "synonyms": [
+    "RCV000241751",
+    "RCV001122813",
+    "VCV000254700",
+    "RCV001508430",
+    "RCV000526707",
+    "rs386465574",
+    "NM_001270448.1:c.80A>G",
+    "NP_001029031.1:p.Lys81Arg",
+    "NM_000018.3:c.308A>G",
+    "NP_000009.1:p.Lys103Arg",
+    "NM_001033859.2:c.242A>G",
+    "NM_000018.4:c.308A>G",
+    "NM_001270447.1:c.377A>G",
+    "NP_001257377.1:p.Lys27Arg",
+    "NP_001257376.1:p.Lys126Arg"
+  ],
+  "var_class": "SNP",
+  "MAF": 0.007388
+}
+$maf
+[1] 0.003907364
+
+$maf_population
+$maf_population[[1]]
+           study ref_seq Minor          MAF
+1    1000Genomes       A     G 0.0073881789
+2    1000Genomes       A     G 0.0073391630
+3         ALSPAC       A     G 0.0010378827
+4       Estonian       A     G 0.0002232143
+5           ExAC       A     G 0.0016490221
+6         GnomAD       A     G 0.0039073641
+7  GnomAD_exomes       A     G 0.0013800838
+8          GoESP       A     G 0.0043057051
+9           GoNL       A     G 0.0010020040
+10           MGP       A     G 0.0037453184
+11    PAGE_STUDY       A     G 0.0060484383
+12      SGDP_PRJ       A     G 0.5000000000
+13        TOPMED       A     G 0.0042615890
+14       TWINSUK       A     G 0.0010787487
+15 dbGaP_PopFreq       A     G 0.0008712460
+
+
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-30/ACADVL_5_jleavitt_2023-01-30/ACADVL_5_jleavitt_2023-01-30_dbSNP_freqs.txt
+1000Genomes	1	A	G	37	5008
+1000Genomes	2	A	G	47	6404
+ALSPAC	1	A	G	4	3854
+Estonian	1	A	G	1	4480
+ExAC	1	A	G	200	121284
+GnomAD	3	A	G	548	140248
+GnomAD_exomes	2	A	G	347	251434
+GoESP	2	A	G	56	13006
+GoNL	5	A	G	1	998
+MGP	1	A	G	2	534
+PAGE_STUDY	1	A	G	476	78698
+SGDP_PRJ	1	A	G	4	8
+TOPMED	3	A	G	1128	264690
+TWINSUK	1	A	G	4	3708
+dbGaP_PopFreq	1	A	G	119	136586
+1000Genomes	1	A	G	37	5008
+1000Genomes	2	A	G	47	6404
+ALSPAC	1	A	G	4	3854
+Estonian	1	A	G	1	4480
+ExAC	1	A	G	200	121284
+GnomAD	3	A	G	548	140248
+GnomAD_exomes	2	A	G	347	251434
+GoESP	2	A	G	56	13006
+GoNL	5	A	G	1	998
+MGP	1	A	G	2	534
+PAGE_STUDY	1	A	G	476	78698
+SGDP_PRJ	1	A	G	4	8
+TOPMED	3	A	G	1128	264690
+TWINSUK	1	A	G	4	3708
+dbGaP_PopFreq	1	A	G	119	136586
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-30/ACADVL_5_jleavitt_2023-01-30/ACADVL_5_jleavitt_2023-01-30_exac.txt
+{
+variant_id: 17-7127676-A-G,
+hgvsc: c.308A>G,
+hgvsp: p.Thr104Ala,
+exome: {
+ac: 1,
+an: 119934,
+af: 8.337919188887221e-06,
+"populations": [
+{"id": "afr","ac": 0,"an": 10238},
+{"id": "amr","ac": 0,"an": 11498},
+{"id": "eas","ac": 1,"an": 8636},
+{"id": "fin","ac": 0,"an": 6332},
+{"id": "nfe","ac": 0,"an": 65892},
+{"id": "oth","ac": 0,"an": 884},
+{"id": "sas","ac": 0,"an": 16454}]}}
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-30/ACADVL_5_jleavitt_2023-01-30/ACADVL_5_jleavitt_2023-01-30_fsplice.txt
+Direct  chain.
+ Acceptor(AG) sites. Treshold      4.175 (90%).
+       1 P:     751 W:  4.67 Seq: tgcccAGcccct
+       2 P:    1472 W:  7.62 Seq: tctgcAGggctg
+ Donor(GT) sites. Treshold      6.099 (90%).
+       1 P:    1018 W:  6.80 Seq: gctggGTgaggt
+       2 P:    1096 W:  9.74 Seq: ggcagGTaccat
+       3 P:    1245 W: 12.68 Seq: acatgGTgagtg
+       4 P:    1332 W:  6.66 Seq: ggaagGTgacag
+Reverse chain.
+ Acceptor(AG) sites. Treshold      4.175 (90%).
+       1 P:     487 W:  7.08 Seq: ttatcAGcttgg
+       2 P:     504 W:  5.85 Seq: accacAGtggca
+       3 P:     634 W:  7.83 Seq: ctcctAGcagga
+       4 P:     637 W:  7.15 Seq: ctagcAGgaggc
+       5 P:     710 W:  5.75 Seq: catacAGccctg
+       6 P:     860 W:  9.68 Seq: cttccAGgctgc
+       7 P:    1096 W:  4.47 Seq: ctgccAGggccg
+       8 P:    1251 W:  9.07 Seq: ttctcAGggggc
+       9 P:    1606 W:  5.58 Seq: cccccAGggtaa
+      10 P:    1765 W:  6.72 Seq: tctccAGagcgt
+      11 P:    1917 W:  5.67 Seq: cccacAGcaaag
+ Donor(GT) sites. Treshold      6.099 (90%).
+       1 P:      35 W: 11.70 Seq: aggcaGTaagtg
+       2 P:     944 W:  8.76 Seq: accatGTaagcc
+       3 P:    1038 W:  6.38 Seq: actggGTacgat
+       4 P:    1535 W:  7.08 Seq: gggagGTatttt
+       5 P:    1608 W:  6.10 Seq: ccaggGTaatgc
+       6 P:    1890 W:  8.06 Seq: ctgtgGTgagct
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-30/ACADVL_5_jleavitt_2023-01-30/ACADVL_5_jleavitt_2023-01-30_gnomad.txt
+{
+variant_id: 17-7220796-A-G,
+hgvsc: c.308A>G,
+hgvsp: p.Lys103Arg,
+genome: {
+ac: 571,
+an: 152192,
+af: 0.003751839781328848,
+"populations": [
+{"id": "oth","ac": 12,"an": 2094},
+{"id": "amr","ac": 51,"an": 15280},
+{"id": "fin","ac": 0,"an": 10630},
+{"id": "ami","ac": 0,"an": 912},
+{"id": "eas","ac": 0,"an": 5194},
+{"id": "mid","ac": 4,"an": 316},
+{"id": "afr","ac": 474,"an": 41438},
+{"id": "sas","ac": 1,"an": 4826},
+{"id": "asj","ac": 4,"an": 3472},
+{"id": "nfe","ac": 25,"an": 68030}]}}
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-30/ACADVL_5_jleavitt_2023-01-30/ACADVL_5_jleavitt_2023-01-30_polyphen2.txt
+## ENSEMBL VARIANT EFFECT PREDICTOR v106.1
+## Output produced at 2023-01-30 08:27:32
+## Connected to homo_sapiens_core_106_38 on ensembldb.ensembl.org
+## Using API version 106, DB version 106
+## ensembl version 106.f4b50c6
+## ensembl-io version 106.6eafdaa
+## ensembl-funcgen version 106.027e023
+## ensembl-variation version 106.2aa7a5d
+## genebuild version 2014-07
+## gencode version GENCODE 40
+## polyphen version 2.2.2
+## assembly version GRCh38.p13
+## Column descriptions:
+## Uploaded_variation : Identifier of uploaded variant
+## Location : Location of variant in standard coordinate format (chr:start or chr:start-end)
+## Allele : The variant allele used to calculate the consequence
+## Gene : Stable ID of affected gene
+## Feature : Stable ID of feature
+## Feature_type : Type of feature - Transcript, RegulatoryFeature or MotifFeature
+## Consequence : Consequence type
+## cDNA_position : Relative position of base pair in cDNA sequence
+## CDS_position : Relative position of base pair in coding sequence
+## Protein_position : Relative position of amino acid in protein
+## Amino_acids : Reference and variant amino acids
+## Codons : Reference and variant codon sequence
+## Existing_variation : Identifier(s) of co-located known variants
+## Extra column keys:
+## IMPACT : Subjective impact classification of consequence type
+## DISTANCE : Shortest distance from variant to transcript
+## STRAND : Strand of the feature (1/-1)
+## FLAGS : Transcript quality flags
+## PolyPhen : PolyPhen prediction and/or score
+#Uploaded_variation	Location	Allele	Gene	Feature	Feature_type	Consequence	cDNA_position	CDS_position	Protein_position	Amino_acids	Codons	Existing_variation	Extra
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000004975	ENST00000005340	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=4546;STRAND=-1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000132535	ENST00000302955	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3187;STRAND=-1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000322910	Transcript	3_prime_UTR_variant,NMD_transcript_variant	524	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000350303	Transcript	missense_variant	364	242	81	K/R	aAa/aGa	-	IMPACT=MODERATE;STRAND=1;PolyPhen=benign(0.003)
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000356839	Transcript	missense_variant	355	308	103	K/R	aAa/aGa	-	IMPACT=MODERATE;STRAND=1;PolyPhen=benign(0.006)
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000199053	ENST00000362183	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=2501;STRAND=-1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000132535	ENST00000399506	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3169;STRAND=-1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000132535	ENST00000399510	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=960;STRAND=-1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000132535	ENST00000447163	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3590;STRAND=-1;FLAGS=cds_end_NF
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000132535	ENST00000485100	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3608;STRAND=-1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000132535	ENST00000491753	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=1058;STRAND=-1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000542255	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=2402;STRAND=1;FLAGS=cds_start_NF
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000543245	Transcript	missense_variant	398	377	126	K/R	aAa/aGa	-	IMPACT=MODERATE;STRAND=1;PolyPhen=benign(0.003)
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000004975	ENST00000575458	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=4659;STRAND=-1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000577191	Transcript	non_coding_transcript_exon_variant	385	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000577433	Transcript	non_coding_transcript_exon_variant	516	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000577857	Transcript	non_coding_transcript_exon_variant	259	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000578033	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3837;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000578269	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=120;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000578319	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3421;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000578421	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=57;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000578579	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=2311;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000578711	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=2709;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000578809	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3421;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000578824	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=1844;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000579286	Transcript	non_coding_transcript_exon_variant	489	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000579391	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3308;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000579425	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=2236;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000579546	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=2423;STRAND=1;FLAGS=cds_start_NF,cds_end_NF
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000579886	Transcript	intron_variant	-	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1;FLAGS=cds_end_NF
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000579894	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3129;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000580263	Transcript	downstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=16;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000580365	Transcript	non_coding_transcript_exon_variant	39	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000581378	Transcript	missense_variant,NMD_transcript_variant	7	8	3	K/R	aAa/aGa	-	IMPACT=MODERATE;STRAND=1;FLAGS=cds_start_NF;PolyPhen=benign(0.011)
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000581562	Transcript	non_coding_transcript_exon_variant	355	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000582056	Transcript	non_coding_transcript_exon_variant	398	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000582166	Transcript	non_coding_transcript_exon_variant	196	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000582356	Transcript	non_coding_transcript_exon_variant	507	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000582379	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=1150;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000582450	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3485;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000583074	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3029;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000583312	Transcript	missense_variant	433	308	103	K/R	aAa/aGa	-	IMPACT=MODERATE;STRAND=1;FLAGS=cds_end_NF;PolyPhen=benign(0.006)
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000583760	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=483;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000583848	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3693;STRAND=1;FLAGS=cds_start_NF
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000583850	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=2891;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000583858	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=1964;STRAND=1;FLAGS=cds_start_NF
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000584103	Transcript	missense_variant	390	308	103	K/R	aAa/aGa	-	IMPACT=MODERATE;STRAND=1;FLAGS=cds_end_NF;PolyPhen=benign(0.137)
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000072778	ENST00000585203	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=2052;STRAND=1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000132535	ENST00000647975	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=3563;STRAND=-1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000132535	ENST00000648172	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=955;STRAND=-1
+NM_000018.4:c.308A>G	17:7220796	G	ENSG00000132535	ENST00000648707	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=2491;STRAND=-1
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-30/ACADVL_5_jleavitt_2023-01-30/ACADVL_5_jleavitt_2023-01-30_provean.txt
+## PROVEAN v1.1 output ##
+## Input Arguments ##
+/usr/local/bin/provean -q /work/NBS//saved_data/ACADVL.uniprot.fasta -v /work/NBS//outputs/2023-01-30/ACADVL_5_jleavitt_2023-01-30/provean_input.tmp -d /work/NBS/databases/nr_v4/nr --psiblast /work/NBS/tools/ncbi-blast-2.4.0+/bin/psiblast --cdhit /work/NBS/tools/cdhit/cd-hit --blastdbcmd /work/NBS/tools/ncbi-blast-2.4.0+/bin/blastdbcmd --supporting_set /work/NBS//saved_data/ACADVL.sss --num_threads 16 
+
+## Parameters ##
+# Query sequence file:	/work/NBS//saved_data/ACADVL.uniprot.fasta
+# Variation file:	/work/NBS//outputs/2023-01-30/ACADVL_5_jleavitt_2023-01-30/provean_input.tmp
+# Protein database:	/work/NBS/databases/nr_v4/nr
+# Supporting sequence set file (optional):	/work/NBS//saved_data/ACADVL.sss
+# Supporting sequence set file for storing (optional):	Not provided
+# Substitution matrix:	BLOSUM62
+# Gap costs:	10, 1
+# Clustering threshold:	0.750
+# Maximum number of clusters:	30
+
+[08:33:37] loading query sequence from a FASTA file...
+[08:33:37] loading variations...
+[08:33:37] retrieving supporting sequences & cluster information...
+[08:33:53] loading subject sequences from a FASTA file...
+# Number of clusters:	30
+# Number of supporting sequences used:	463
+[08:33:53] computing delta alignment scores...
+[08:34:00] printing PROVEAN scores...
+## PROVEAN scores ##
+# VARIATION	SCORE
+K103R	-0.502
+
+************************************************************************************************************************
+
+

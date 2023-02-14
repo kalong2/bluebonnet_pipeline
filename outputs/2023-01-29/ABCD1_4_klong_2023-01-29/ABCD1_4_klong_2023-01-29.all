@@ -1,0 +1,271 @@
+/work/NBS//outputs/2023-01-29/ABCD1_4_klong_2023-01-29/ABCD1_4_klong_2023-01-29_CADD.txt
+##CADD GRCh38-v1.6 (c) University of Washington, Hudson-Alpha Institute for Biotechnology and Berlin Institute of Health 2013-2020. All rights reserved.
+#Chrom	Pos	Ref	Alt	RawScore	PHRED
+X	153725208	C	T	1.154432	13.26
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-29/ABCD1_4_klong_2023-01-29/ABCD1_4_klong_2023-01-29_SIFT.txt
+##fileformat=VCFv4.0
+##fileDate=20220321
+##INFO=<ID=NS,Number=1,Type=Integer,Description="Number of Samples With Data">
+##FILTER=<ID=q10,Description="Quality below 10">
+##SIFT_Threshold: 0.05
+##INFO=<ID=SIFTINFO,Number=.,Type=String,Description="SIFT information. Format: Allele|Transcript|GeneId|GeneName|Region|VariantType|Ref_Amino_Acid/Alt_AminoAcid|Amino_position|SIFT_score|SIFT_median|SIFT_num_seqs|Allele_Type|SIFT_prediction">
+#CHROM POS     ID        REF ALT    QUAL FILTER INFO
+X	153725208	rs4148030	C	T	30	PASS	NS=1;SIFTINFO=T|ENST00000218104|ENSG00000101986|ABCD1|UTR_5|NONCODING|NA/NA|NA|NA|NA|NA|X-ALD_c.-59C>T|NA
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-29/ABCD1_4_klong_2023-01-29/ABCD1_4_klong_2023-01-29_UCSC.txt
+{u'start': 153725208, u'end': 153725209, u'value': -0.105858}
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-29/ABCD1_4_klong_2023-01-29/ABCD1_4_klong_2023-01-29_clinvar.txt
+795482 | Benign | criteria provided, single submitter | 2016-12-06 | 2020-05-31 | N/A | 2017-04-27 | This variant was observed as part of a predisposition screen in an ostensibly healthy population. A literature search was performed for the gene, cDNA change, and amino acid change (where applicable). No publications were found based on this search. Allele frequency data from public databases was too high to be consistent with this variant causing disease. Therefore, this variant is classified as benign.
+3049731 | Likely benign | no assertion criteria provided | 2021-04-13 | 2021-04-13 | N/A | N/A | Allele frequency is common in at least one population database (frequency: 9.43% in ONEKG) based on the frequency threshold of 0.772% for this gene. Variant was observed in a homozygous state in population databases more than expected for disease. 1 reputable source/s reports the variant as benign, but the evidence is not available to the laboratory to perform an independent evaluation. A synonymous variant not located in a splice region.
+3740760 | Benign | criteria provided, single submitter | 2021-09-24 | 2021-09-24 | N/A | 2018-06-28 | N/A
+4011409 | Benign | criteria provided, single submitter | 2022-01-03 | 2022-01-03 | N/A | 2021-11-07 | N/A
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-29/ABCD1_4_klong_2023-01-29/ABCD1_4_klong_2023-01-29_dbSNP.txt
+{
+  "synonyms": [
+    "X-ALD_c.-59C>T",
+    "VCV000368042",
+    "RCV001354444",
+    "RCV000286561",
+    "NM_000033.4:c.-59C>T",
+    "NM_000033.3:c.-59C>T"
+  ],
+  "clinical_significance": [
+    "benign"
+  ],
+  "name": "rs4148030",
+  "mappings": [
+    {
+      "coord_system": "chromosome",
+      "end": 153725208,
+      "seq_region_name": "X",
+      "start": 153725208,
+      "assembly_name": "GRCh38",
+      "allele_string": "C/T",
+      "location": "X:153725208-153725208",
+      "strand": 1,
+      "ancestral_allele": "C"
+    }
+  ],
+  "minor_allele": "T",
+  "var_class": "SNP",
+  "MAF": 0.0943,
+  "evidence": [
+    "Frequency",
+    "1000Genomes",
+    "Cited",
+    "Phenotype_or_Disease",
+    "TOPMed",
+    "gnomAD"
+  ],
+  "ambiguity": "Y",
+  "source": "Variants (including SNPs and indels) imported from dbSNP",
+  "most_severe_consequence": "5_prime_UTR_variant"
+}
+$maf
+[1] 0.0915004
+
+$maf_population
+$maf_population[[1]]
+           study ref_seq Minor        MAF
+1    1000Genomes       C     T 0.09430464
+2    1000Genomes       C     T 0.09094693
+3         ALSPAC       C     T 0.11214953
+4      GENOME_DK       C     T 0.12500000
+5         GnomAD       C     T 0.09150040
+6         HapMap       C     T 0.10084926
+7         KOREAN       C     T 0.05243317
+8         Qatari       C     T 0.08333333
+9       SGDP_PRJ       C     T 0.70689655
+10      Siberian       C     T 0.50000000
+11         TOMMO       C     T 0.04915862
+12         TOMMO       C     T 0.04933603
+13        TOPMED       C     T 0.08846197
+14       TWINSUK       C     T 0.12081985
+15    Vietnamese       C     T 0.12500000
+16 dbGaP_PopFreq       C     T 0.10098834
+
+
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-29/ABCD1_4_klong_2023-01-29/ABCD1_4_klong_2023-01-29_dbSNP_freqs.txt
+1000Genomes	1	C	T	356	3775
+1000Genomes	2	C	T	437	4805
+ALSPAC	1	C	T	324	2889
+GENOME_DK	1	C	T	5	40
+GnomAD	3	C	T	9580	104699
+HapMap	3	C	T	190	1884
+KOREAN	1	C	T	153	2918
+Qatari	1	C	T	9	108
+SGDP_PRJ	1	C	T	41	58
+Siberian	1	C	T	1	2
+TOMMO	1	C	T	631	12836
+TOMMO	2	C	T	1096	22215
+TOPMED	3	C	T	23415	264690
+TWINSUK	1	C	T	448	3708
+Vietnamese	1	C	T	6	48
+dbGaP_PopFreq	1	C	T	2391	23676
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-29/ABCD1_4_klong_2023-01-29/ABCD1_4_klong_2023-01-29_exac.txt
+Mutation not found
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-29/ABCD1_4_klong_2023-01-29/ABCD1_4_klong_2023-01-29_fsplice.txt
+Direct Chain.
+ Acceptor(AG) sites. Threshold      4.175 (90%).
+       1 P:     370 W:  6.10 Seq: gccccAGgcacc
+       2 P:     428 W:  4.38 Seq: tctccAGgcccc
+       3 P:     857 W:  7.12 Seq: tcaacAGtgcca
+       4 P:     902 W:  6.20 Seq: tccgcAGccgtc
+       5 P:     942 W:  5.20 Seq: ctcccAGcagac
+       6 P:     945 W:  4.62 Seq: ccagcAGaccta
+       7 P:    2043 W:  6.38 Seq: cccgcAGaggcc
+       8 P:    2079 W:  4.33 Seq: tgaccAGgtgat
+       9 P:    2181 W:  4.85 Seq: cctgcAGcggga
+      10 P:    2760 W:  5.88 Seq: ctcctAGaaaac
+      11 P:    2857 W:  5.10 Seq: tccacAGtgact
+      12 P:    2996 W:  4.42 Seq: actgcAGgtggc
+      13 P:    3281 W:  8.43 Seq: tctacAGcctaa
+      14 P:    3309 W:  5.12 Seq: ttcgtAGccatc
+      15 P:    3603 W:  4.53 Seq: ccctcAGccctc
+ Donor(GT) sites. Threshold      6.099 (90%).
+       1 P:     407 W:  6.80 Seq: cccagGTgacat
+       2 P:     715 W:  9.32 Seq: ccttgGTgagcc
+       3 P:    1389 W:  8.48 Seq: ctgtgGTatgtt
+       4 P:    1419 W:  6.52 Seq: atgaaGTatgtg
+       5 P:    1543 W:  9.88 Seq: agctgGTgagcg
+       6 P:    1684 W:  9.18 Seq: tccagGTatttg
+       7 P:    2080 W:  6.38 Seq: accagGTgatct
+       8 P:    2880 W:  8.76 Seq: gggcaGTgagtc
+Reverse chain.
+ Acceptor(AG) sites. Threshold      4.175 (90%).
+       1 P:     759 W:  5.70 Seq: accccAGcttcc
+       2 P:    1185 W:  8.45 Seq: ccgtcAGgctca
+       3 P:    1272 W:  5.97 Seq: tccacAGggagg
+       4 P:    1446 W:  4.92 Seq: ccgacAGgacgt
+       5 P:    1494 W:  7.67 Seq: gctgcAGgatgt
+       6 P:    1834 W:  4.67 Seq: ctcgcAGatgat
+       7 P:    1878 W:  4.75 Seq: tcttcAGggggc
+       8 P:    2152 W:  6.17 Seq: ttccaAGgctgc
+       9 P:    2457 W:  6.67 Seq: ccaccAGctccc
+      10 P:    3364 W:  5.75 Seq: tgtctAGgcaac
+      11 P:    3651 W:  5.08 Seq: tccgcAGcctgg
+ Donor(GT) sites. Threshold      6.099 (90%).
+       1 P:     404 W:  7.08 Seq: aggtgGTgaggg
+       2 P:     514 W: 11.56 Seq: tgcagGTgaggc
+       3 P:    1282 W:  7.92 Seq: ggccgGTgggtg
+       4 P:    1678 W:  7.22 Seq: ccaccGTacgtg
+       5 P:    2329 W:  7.64 Seq: tcctgGTaggag
+       6 P:    2629 W:  7.64 Seq: tagagGTgggcc
+       7 P:    2746 W:  6.38 Seq: aggcgGTaggcg
+       8 P:    2800 W: 12.40 Seq: tccagGTaacgg
+       9 P:    2825 W:  8.06 Seq: cgaagGTagcag
+      10 P:    2945 W:  9.04 Seq: ggaagGTgcggc
+      11 P:    3533 W:  6.24 Seq: ctgagGTcaggg
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-29/ABCD1_4_klong_2023-01-29/ABCD1_4_klong_2023-01-29_gnomad.txt
+{
+variant_id: X-153725208-C-T,
+hgvsc: c.-59C>T,
+hgvsp: null,
+genome: {
+ac: 10472,
+an: 112610,
+af: 0.09299351744960484,
+"populations": [
+{"id": "oth","ac": 136,"an": 1526},
+{"id": "amr","ac": 648,"an": 10841},
+{"id": "fin","ac": 648,"an": 6208},
+{"id": "ami","ac": 26,"an": 679},
+{"id": "eas","ac": 182,"an": 3554},
+{"id": "mid","ac": 14,"an": 238},
+{"id": "afr","ac": 2096,"an": 31067},
+{"id": "sas","ac": 408,"an": 2799},
+{"id": "asj","ac": 171,"an": 2642},
+{"id": "nfe","ac": 6143,"an": 53056}]}}
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-29/ABCD1_4_klong_2023-01-29/ABCD1_4_klong_2023-01-29_polyphen2.txt
+## ENSEMBL VARIANT EFFECT PREDICTOR v106.1
+## Output produced at 2023-01-29 17:15:21
+## Connected to homo_sapiens_core_106_38 on ensembldb.ensembl.org
+## Using API version 106, DB version 106
+## ensembl version 106.f4b50c6
+## ensembl-variation version 106.2aa7a5d
+## ensembl-funcgen version 106.027e023
+## ensembl-io version 106.6eafdaa
+## gencode version GENCODE 40
+## polyphen version 2.2.2
+## genebuild version 2014-07
+## assembly version GRCh38.p13
+## Column descriptions:
+## Uploaded_variation : Identifier of uploaded variant
+## Location : Location of variant in standard coordinate format (chr:start or chr:start-end)
+## Allele : The variant allele used to calculate the consequence
+## Gene : Stable ID of affected gene
+## Feature : Stable ID of feature
+## Feature_type : Type of feature - Transcript, RegulatoryFeature or MotifFeature
+## Consequence : Consequence type
+## cDNA_position : Relative position of base pair in cDNA sequence
+## CDS_position : Relative position of base pair in coding sequence
+## Protein_position : Relative position of amino acid in protein
+## Amino_acids : Reference and variant amino acids
+## Codons : Reference and variant codon sequence
+## Existing_variation : Identifier(s) of co-located known variants
+## Extra column keys:
+## IMPACT : Subjective impact classification of consequence type
+## DISTANCE : Shortest distance from variant to transcript
+## STRAND : Strand of the feature (1/-1)
+## FLAGS : Transcript quality flags
+## PolyPhen : PolyPhen prediction and/or score
+#Uploaded_variation	Location	Allele	Gene	Feature	Feature_type	Consequence	cDNA_position	CDS_position	Protein_position	Amino_acids	Codons	Existing_variation	Extra
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000101986	ENST00000218104	Transcript	5_prime_UTR_variant	353	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000185825	ENST00000345046	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=821;STRAND=-1
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000101986	ENST00000370129	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=609;STRAND=1
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000185825	ENST00000416815	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=1095;STRAND=-1;FLAGS=cds_end_NF
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000185825	ENST00000423827	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=1164;STRAND=-1;FLAGS=cds_end_NF
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000185825	ENST00000429550	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=643;STRAND=-1;FLAGS=cds_end_NF
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000185825	ENST00000430088	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=1809;STRAND=-1;FLAGS=cds_end_NF
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000185825	ENST00000442093	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=825;STRAND=-1;FLAGS=cds_end_NF
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000185825	ENST00000458587	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=1142;STRAND=-1
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000185825	ENST00000468947	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=4051;STRAND=-1
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000185825	ENST00000645377	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=820;STRAND=-1
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000185825	ENST00000645802	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=812;STRAND=-1
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000185825	ENST00000647529	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=773;STRAND=-1
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000185825	ENST00000672675	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=820;STRAND=-1
+
+************************************************************************************************************************
+
+
+/work/NBS//outputs/2023-01-29/ABCD1_4_klong_2023-01-29/ABCD1_4_klong_2023-01-29_provean.txt
+N/A: Mutation does not affect the protein.
+
+************************************************************************************************************************
+
+

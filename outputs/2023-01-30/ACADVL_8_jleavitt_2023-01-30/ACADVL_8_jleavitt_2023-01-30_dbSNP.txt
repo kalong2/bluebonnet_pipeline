@@ -1,0 +1,37 @@
+{
+  "name": "rs1439725735",
+  "synonyms": [],
+  "most_severe_consequence": "non_coding_transcript_exon_variant",
+  "source": "Variants (including SNPs and indels) imported from dbSNP",
+  "minor_allele": null,
+  "mappings": [
+    {
+      "start": 7224619,
+      "seq_region_name": "17",
+      "assembly_name": "GRCh38",
+      "allele_string": "C/T",
+      "location": "17:7224619-7224619",
+      "strand": 1,
+      "ancestral_allele": "C",
+      "coord_system": "chromosome",
+      "end": 7224619
+    }
+  ],
+  "var_class": "SNP",
+  "MAF": null,
+  "ambiguity": "Y",
+  "evidence": [
+    "Frequency",
+    "gnomAD"
+  ]
+}
+$maf
+[1] NA
+
+$maf_population
+$maf_population[[1]]
+          study ref_seq Minor          MAF
+1 GnomAD_exomes       C     T 6.134819e-06
+2 dbGaP_PopFreq       C     T 0.000000e+00
+
+

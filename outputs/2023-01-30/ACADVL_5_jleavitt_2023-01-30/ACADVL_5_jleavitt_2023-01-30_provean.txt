@@ -1,0 +1,26 @@
+## PROVEAN v1.1 output ##
+## Input Arguments ##
+/usr/local/bin/provean -q /work/NBS//saved_data/ACADVL.uniprot.fasta -v /work/NBS//outputs/2023-01-30/ACADVL_5_jleavitt_2023-01-30/provean_input.tmp -d /work/NBS/databases/nr_v4/nr --psiblast /work/NBS/tools/ncbi-blast-2.4.0+/bin/psiblast --cdhit /work/NBS/tools/cdhit/cd-hit --blastdbcmd /work/NBS/tools/ncbi-blast-2.4.0+/bin/blastdbcmd --supporting_set /work/NBS//saved_data/ACADVL.sss --num_threads 16 
+
+## Parameters ##
+# Query sequence file:	/work/NBS//saved_data/ACADVL.uniprot.fasta
+# Variation file:	/work/NBS//outputs/2023-01-30/ACADVL_5_jleavitt_2023-01-30/provean_input.tmp
+# Protein database:	/work/NBS/databases/nr_v4/nr
+# Supporting sequence set file (optional):	/work/NBS//saved_data/ACADVL.sss
+# Supporting sequence set file for storing (optional):	Not provided
+# Substitution matrix:	BLOSUM62
+# Gap costs:	10, 1
+# Clustering threshold:	0.750
+# Maximum number of clusters:	30
+
+[08:33:37] loading query sequence from a FASTA file...
+[08:33:37] loading variations...
+[08:33:37] retrieving supporting sequences & cluster information...
+[08:33:53] loading subject sequences from a FASTA file...
+# Number of clusters:	30
+# Number of supporting sequences used:	463
+[08:33:53] computing delta alignment scores...
+[08:34:00] printing PROVEAN scores...
+## PROVEAN scores ##
+# VARIATION	SCORE
+K103R	-0.502

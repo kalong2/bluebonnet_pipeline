@@ -158,10 +158,12 @@ len_ref=${#ref_al}
 len_alt=${#alt_al}
 if [ $len_ref -gt $len_alt ] ; then #deletion
 	end=$((pos+len_ref-1))
+	ucsc_start=$((pos-1))
 	ucsc_end=$((pos+len_ref))
 else #insertion or SNP
 	end=$pos
-	ucsc_end=$((pos+1))
+	ucsc_start=$((pos-1))
+	ucsc_end=$((pos))
 fi
 
 printf "\nInformation for downstream tools..."
@@ -208,7 +210,7 @@ cp $base_dir/saved_data/$gene\_fsplice.txt $prefix\_fsplice.txt
 
 #UCSC
 printf "\nGathering information from UCSC (phyloP)...\n"
-UCSC_string='https://api.genome.ucsc.edu/getData/track?genome=hg38;chrom=chr'$chr';start='$pos';end='$ucsc_end';track=phyloP100way'
+UCSC_string='https://api.genome.ucsc.edu/getData/track?genome=hg38;chrom=chr'$chr';start='$ucsc_start';end='$ucsc_end';track=phyloP100way'
 curl -s -L $UCSC_string | python -c "exec(\"import sys, json\nout=list(json.load(sys.stdin)['chr$chr'])\nfor i in out:\n\tprint(i)\")" > $prefix\_UCSC.txt
 
 #CADD

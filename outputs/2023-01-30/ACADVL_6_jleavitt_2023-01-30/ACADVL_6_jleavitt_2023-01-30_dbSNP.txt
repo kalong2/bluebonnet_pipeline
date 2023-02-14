@@ -1,0 +1,53 @@
+{
+  "most_severe_consequence": "non_coding_transcript_exon_variant",
+  "evidence": [
+    "Frequency",
+    "ESP",
+    "Phenotype_or_Disease",
+    "ExAC",
+    "TOPMed",
+    "gnomAD"
+  ],
+  "var_class": "SNP",
+  "clinical_significance": [
+    "uncertain significance"
+  ],
+  "mappings": [
+    {
+      "assembly_name": "GRCh38",
+      "ancestral_allele": "G",
+      "allele_string": "G/A",
+      "start": 7223755,
+      "strand": 1,
+      "location": "17:7223755-7223755",
+      "end": 7223755,
+      "coord_system": "chromosome",
+      "seq_region_name": "17"
+    }
+  ],
+  "source": "Variants (including SNPs and indels) imported from dbSNP",
+  "name": "rs373157378",
+  "MAF": null,
+  "synonyms": [
+    "VCV000932820",
+    "RCV001200772"
+  ],
+  "ambiguity": "R",
+  "minor_allele": null
+}
+$maf
+[1] 9.987872e-05
+
+$maf_population
+$maf_population[[1]]
+          study ref_seq Minor          MAF
+1   1000Genomes       G     A 3.123048e-04
+2          ExAC       G     A 9.063195e-05
+3        GnomAD       G     A 9.987872e-05
+4 GnomAD_exomes       G     A 8.351561e-05
+5         GoESP       G     A 1.537752e-04
+6        TOPMED       G     A 1.964562e-04
+7 dbGaP_PopFreq       G     A 2.135231e-04
+8         TOMMO       G     T 3.538821e-05
+
+

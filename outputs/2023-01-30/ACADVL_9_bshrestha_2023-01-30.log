@@ -1,0 +1,17 @@
+
+Gene: ACADVL
+Locus: NM_000018.4
+Variant: c.863T>A
+Gathering information from ensembl...
+
+Checking for normalized variant format...
+Variant format is unchanged
+
+This mutation does not have an entry in dbSNP
+
+Gathering information from gnomad...
+
+Gathering information from ExAC...
+NOTE: ExAC is only availble for GRCh37, so results will be for that reference only
+
+The lack of information in these databases hinders downstream analysis. There will be no results for this mutation search

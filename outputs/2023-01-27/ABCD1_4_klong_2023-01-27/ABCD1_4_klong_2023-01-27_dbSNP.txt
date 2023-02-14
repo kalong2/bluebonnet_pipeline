@@ -1,0 +1,65 @@
+{
+  "synonyms": [
+    "X-ALD_c.-59C>T",
+    "NM_000033.4:c.-59C>T",
+    "NM_000033.3:c.-59C>T",
+    "RCV000286561",
+    "RCV001354444",
+    "VCV000368042"
+  ],
+  "name": "rs4148030",
+  "clinical_significance": [
+    "benign"
+  ],
+  "ambiguity": "Y",
+  "evidence": [
+    "Frequency",
+    "1000Genomes",
+    "Cited",
+    "Phenotype_or_Disease",
+    "TOPMed",
+    "gnomAD"
+  ],
+  "mappings": [
+    {
+      "start": 153725208,
+      "seq_region_name": "X",
+      "assembly_name": "GRCh38",
+      "strand": 1,
+      "ancestral_allele": "C",
+      "allele_string": "C/T",
+      "location": "X:153725208-153725208",
+      "end": 153725208,
+      "coord_system": "chromosome"
+    }
+  ],
+  "MAF": 0.0943,
+  "minor_allele": "T",
+  "var_class": "SNP",
+  "most_severe_consequence": "5_prime_UTR_variant",
+  "source": "Variants (including SNPs and indels) imported from dbSNP"
+}
+$maf
+[1] 0.0915004
+
+$maf_population
+$maf_population[[1]]
+           study ref_seq Minor        MAF
+1    1000Genomes       C     T 0.09430464
+2    1000Genomes       C     T 0.09094693
+3         ALSPAC       C     T 0.11214953
+4      GENOME_DK       C     T 0.12500000
+5         GnomAD       C     T 0.09150040
+6         HapMap       C     T 0.10084926
+7         KOREAN       C     T 0.05243317
+8         Qatari       C     T 0.08333333
+9       SGDP_PRJ       C     T 0.70689655
+10      Siberian       C     T 0.50000000
+11         TOMMO       C     T 0.04915862
+12         TOMMO       C     T 0.04933603
+13        TOPMED       C     T 0.08846197
+14       TWINSUK       C     T 0.12081985
+15    Vietnamese       C     T 0.12500000
+16 dbGaP_PopFreq       C     T 0.10098834
+
+

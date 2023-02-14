@@ -1,0 +1,79 @@
+
+Gene: ACADVL
+Locus: NM_000018.4
+Variant: c.481G>A
+Gathering information from ensembl...
+
+Checking for normalized variant format...
+Variant format is unchanged
+
+Gathering information from dbSNP...
+Getting info about the following rsIDs: rs375284481
+
+Gathering information from gnomad...
+
+Gathering information from ExAC...
+NOTE: ExAC is only availble for GRCh37, so results will be for that reference only
+
+Information for downstream tools...
+Chromosome: 17
+Position: 7221541
+Reference Allele: G
+Alternate Allele: A
+Getting PolyPhen2 scores...
+
+Gathering information from ClinVar...
+
+Copying saved splice site information...
+
+Gathering information from UCSC (phyloP)...
+
+Running CADD...
+CADD-v1.6 (c) University of Washington, Hudson-Alpha Institute for Biotechnology and Berlin Institute of Health 2013-2020. All rights reserved.
+Running snakemake pipeline:
+snakemake /tmp/tmp.81BDBP6uZu/CADD_vcf_tmp.tsv.gz --use-conda --conda-prefix /work/NBS/CADD-scripts/envs --cores 1
+--configfile /work/NBS/CADD-scripts/config/config_GRCh38_v1.6_noanno.yml --snakefile /work/NBS/CADD-scripts/Snakefile -q
+Job stats:
+job           count    min threads    max threads
+----------  -------  -------------  -------------
+annotation        1              1              1
+imputation        1              1              1
+join              1              1              1
+prepare           1              1              1
+prescore          1              1              1
+score             1              1              1
+total             6              1              1
+
+Possible precedence issue with control flow operator at /work/NBS/CADD-scripts/envs/ed5466c2bce5bf8fd2fe496e5b6e5c26/lib/site_perl/5.26.2/Bio/DB/IndexedBase.pm line 805.
+
+CADD scored variants written to file: /work/NBS//outputs/2023-01-30/ACADVL_10_dmartinez_2023-01-30/ACADVL_10_dmartinez_2023-01-30_CADD.txt.gz
+
+Running SIFT...
+Start Time for SIFT4G code: Tue Jan 31 13:29:43 CST 2023
+
+Started Running .......
+Running in Multitranscripts mode
+
+Chromosome	WithSIFT4GAnnotations	WithoutSIFT4GAnnotations	Progress
+17			1			0			Completed : 1/1
+
+Merging temp files....
+SIFT4G Annotation completed !
+Output directory:/work/NBS/outputs/2023-01-30/ACADVL_10_dmartinez_2023-01-30
+End Time for parallel code: Tue Jan 31 13:29:53 CST 2023
+
+
+Running Provean...
+
+Cleaning output directory...
+ACADVL-10-dmartinez-2023-01-30
+
+Parsing information and creating Excel worksheet...
+START
+ACADVL:c.481G>A
+I AM HERE
+12
+Query: A161T
+Score: -3.254
+2023-01-30
+dmartinez

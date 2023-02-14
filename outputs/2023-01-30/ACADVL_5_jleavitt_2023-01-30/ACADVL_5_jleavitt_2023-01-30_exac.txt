@@ -1,0 +1,16 @@
+{
+variant_id: 17-7127676-A-G,
+hgvsc: c.308A>G,
+hgvsp: p.Thr104Ala,
+exome: {
+ac: 1,
+an: 119934,
+af: 8.337919188887221e-06,
+"populations": [
+{"id": "afr","ac": 0,"an": 10238},
+{"id": "amr","ac": 0,"an": 11498},
+{"id": "eas","ac": 1,"an": 8636},
+{"id": "fin","ac": 0,"an": 6332},
+{"id": "nfe","ac": 0,"an": 65892},
+{"id": "oth","ac": 0,"an": 884},
+{"id": "sas","ac": 0,"an": 16454}]}}

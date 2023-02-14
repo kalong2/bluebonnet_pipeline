@@ -1,0 +1,19 @@
+{
+variant_id: 17-7221541-G-A,
+hgvsc: c.481G>A,
+hgvsp: p.Ala161Thr,
+genome: {
+ac: 9,
+an: 152162,
+af: 5.91474875461679e-05,
+"populations": [
+{"id": "oth","ac": 0,"an": 2090},
+{"id": "amr","ac": 5,"an": 15282},
+{"id": "fin","ac": 0,"an": 10606},
+{"id": "ami","ac": 0,"an": 912},
+{"id": "eas","ac": 1,"an": 5186},
+{"id": "mid","ac": 0,"an": 316},
+{"id": "afr","ac": 0,"an": 41438},
+{"id": "sas","ac": 0,"an": 4830},
+{"id": "asj","ac": 0,"an": 3470},
+{"id": "nfe","ac": 3,"an": 68032}]}}

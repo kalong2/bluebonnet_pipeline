@@ -1,0 +1,3 @@
+##CADD GRCh38-v1.6 (c) University of Washington, Hudson-Alpha Institute for Biotechnology and Berlin Institute of Health 2013-2020. All rights reserved.
+#Chrom	Pos	Ref	Alt	RawScore	PHRED
+X	153725208	C	T	1.154432	13.26

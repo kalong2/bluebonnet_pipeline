@@ -1,0 +1,47 @@
+## ENSEMBL VARIANT EFFECT PREDICTOR v106.1
+## Output produced at 2023-01-30 15:56:48
+## Connected to homo_sapiens_core_106_38 on ensembldb.ensembl.org
+## Using API version 106, DB version 106
+## ensembl-funcgen version 106.027e023
+## ensembl version 106.f4b50c6
+## ensembl-variation version 106.2aa7a5d
+## ensembl-io version 106.6eafdaa
+## genebuild version 2014-07
+## gencode version GENCODE 40
+## polyphen version 2.2.2
+## assembly version GRCh38.p13
+## Column descriptions:
+## Uploaded_variation : Identifier of uploaded variant
+## Location : Location of variant in standard coordinate format (chr:start or chr:start-end)
+## Allele : The variant allele used to calculate the consequence
+## Gene : Stable ID of affected gene
+## Feature : Stable ID of feature
+## Feature_type : Type of feature - Transcript, RegulatoryFeature or MotifFeature
+## Consequence : Consequence type
+## cDNA_position : Relative position of base pair in cDNA sequence
+## CDS_position : Relative position of base pair in coding sequence
+## Protein_position : Relative position of amino acid in protein
+## Amino_acids : Reference and variant amino acids
+## Codons : Reference and variant codon sequence
+## Existing_variation : Identifier(s) of co-located known variants
+## Extra column keys:
+## IMPACT : Subjective impact classification of consequence type
+## DISTANCE : Shortest distance from variant to transcript
+## STRAND : Strand of the feature (1/-1)
+## FLAGS : Transcript quality flags
+## PolyPhen : PolyPhen prediction and/or score
+#Uploaded_variation	Location	Allele	Gene	Feature	Feature_type	Consequence	cDNA_position	CDS_position	Protein_position	Amino_acids	Codons	Existing_variation	Extra
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000101986	ENST00000218104	Transcript	5_prime_UTR_variant	353	-	-	-	-	-	IMPACT=MODIFIER;STRAND=1
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000185825	ENST00000345046	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=821;STRAND=-1
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000101986	ENST00000370129	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=609;STRAND=1
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000185825	ENST00000416815	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=1095;STRAND=-1;FLAGS=cds_end_NF
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000185825	ENST00000423827	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=1164;STRAND=-1;FLAGS=cds_end_NF
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000185825	ENST00000429550	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=643;STRAND=-1;FLAGS=cds_end_NF
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000185825	ENST00000430088	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=1809;STRAND=-1;FLAGS=cds_end_NF
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000185825	ENST00000442093	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=825;STRAND=-1;FLAGS=cds_end_NF
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000185825	ENST00000458587	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=1142;STRAND=-1
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000185825	ENST00000468947	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=4051;STRAND=-1
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000185825	ENST00000645377	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=820;STRAND=-1
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000185825	ENST00000645802	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=812;STRAND=-1
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000185825	ENST00000647529	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=773;STRAND=-1
+NM_000033.4:c.-59C>T	X:153725208	T	ENSG00000185825	ENST00000672675	Transcript	upstream_gene_variant	-	-	-	-	-	-	IMPACT=MODIFIER;DISTANCE=820;STRAND=-1

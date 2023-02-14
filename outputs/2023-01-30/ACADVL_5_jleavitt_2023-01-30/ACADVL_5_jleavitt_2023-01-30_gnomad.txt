@@ -1,0 +1,19 @@
+{
+variant_id: 17-7220796-A-G,
+hgvsc: c.308A>G,
+hgvsp: p.Lys103Arg,
+genome: {
+ac: 571,
+an: 152192,
+af: 0.003751839781328848,
+"populations": [
+{"id": "oth","ac": 12,"an": 2094},
+{"id": "amr","ac": 51,"an": 15280},
+{"id": "fin","ac": 0,"an": 10630},
+{"id": "ami","ac": 0,"an": 912},
+{"id": "eas","ac": 0,"an": 5194},
+{"id": "mid","ac": 4,"an": 316},
+{"id": "afr","ac": 474,"an": 41438},
+{"id": "sas","ac": 1,"an": 4826},
+{"id": "asj","ac": 4,"an": 3472},
+{"id": "nfe","ac": 25,"an": 68030}]}}

@@ -1,0 +1,77 @@
+{
+  "mappings": [
+    {
+      "assembly_name": "GRCh38",
+      "end": 7220796,
+      "location": "17:7220796-7220796",
+      "allele_string": "A/G",
+      "coord_system": "chromosome",
+      "ancestral_allele": "A",
+      "start": 7220796,
+      "strand": 1,
+      "seq_region_name": "17"
+    }
+  ],
+  "most_severe_consequence": "missense_variant",
+  "source": "Variants (including SNPs and indels) imported from dbSNP",
+  "ambiguity": "R",
+  "name": "rs140566084",
+  "minor_allele": "G",
+  "evidence": [
+    "Frequency",
+    "1000Genomes",
+    "Cited",
+    "ESP",
+    "Phenotype_or_Disease",
+    "ExAC",
+    "TOPMed",
+    "gnomAD"
+  ],
+  "clinical_significance": [
+    "uncertain significance",
+    "benign",
+    "likely benign"
+  ],
+  "synonyms": [
+    "RCV000241751",
+    "RCV001122813",
+    "VCV000254700",
+    "RCV001508430",
+    "RCV000526707",
+    "rs386465574",
+    "NM_001270448.1:c.80A>G",
+    "NP_001029031.1:p.Lys81Arg",
+    "NM_000018.3:c.308A>G",
+    "NP_000009.1:p.Lys103Arg",
+    "NM_001033859.2:c.242A>G",
+    "NM_000018.4:c.308A>G",
+    "NM_001270447.1:c.377A>G",
+    "NP_001257377.1:p.Lys27Arg",
+    "NP_001257376.1:p.Lys126Arg"
+  ],
+  "var_class": "SNP",
+  "MAF": 0.007388
+}
+$maf
+[1] 0.003907364
+
+$maf_population
+$maf_population[[1]]
+           study ref_seq Minor          MAF
+1    1000Genomes       A     G 0.0073881789
+2    1000Genomes       A     G 0.0073391630
+3         ALSPAC       A     G 0.0010378827
+4       Estonian       A     G 0.0002232143
+5           ExAC       A     G 0.0016490221
+6         GnomAD       A     G 0.0039073641
+7  GnomAD_exomes       A     G 0.0013800838
+8          GoESP       A     G 0.0043057051
+9           GoNL       A     G 0.0010020040
+10           MGP       A     G 0.0037453184
+11    PAGE_STUDY       A     G 0.0060484383
+12      SGDP_PRJ       A     G 0.5000000000
+13        TOPMED       A     G 0.0042615890
+14       TWINSUK       A     G 0.0010787487
+15 dbGaP_PopFreq       A     G 0.0008712460
+
+

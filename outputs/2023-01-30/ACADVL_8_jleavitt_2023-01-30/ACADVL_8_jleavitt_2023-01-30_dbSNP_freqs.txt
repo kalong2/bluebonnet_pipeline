@@ -1,0 +1,2 @@
+GnomAD_exomes	2	C	T	1	163004
+dbGaP_PopFreq	1	C	T	0	10680
