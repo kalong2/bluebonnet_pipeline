@@ -1,0 +1,4 @@
+#FastQC need to be run before MultiQC 
+
+fastqc <path to file/*.fastq.gz
+mutliqc <path to fastqc output>
